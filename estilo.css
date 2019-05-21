@@ -16,12 +16,25 @@ body{
     padding: 30px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
+
+@media only screen and (max-width: 700px) {
+    .form-contacto{
+        width: 95%;
+    }
+}
+
 .heading-sec {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 700;
     display: inline-block;
     letter-spacing: 2px;
+}
+@media only screen and (max-width: 700px){
+    .heading-sec{
+        font-size: 20px;
+        letter-spacing: 1.5px;
+    }
 }
 .form-group{
     display: flex;
@@ -37,6 +50,12 @@ body{
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #e0e0e0;
     width: 90%;
+}
+@media only screen and (max-width: 700px) {
+    .form-input{
+        width: 100%;
+        background-color: crimson;
+    }
 }
 .form-input:focus {
     outline: none;
